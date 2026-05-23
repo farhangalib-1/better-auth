@@ -6,6 +6,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 const SignUpPage = () => {
+
+
     const router = useRouter();
     const onSubmit = async (e) => {
     e.preventDefault();
@@ -79,6 +81,7 @@ const SignUpPage = () => {
       <Link href="/auth/signin" className="text-sm text-center text-blue-500 hover:underline">
         Already have an account? Sign In
       </Link>
+    
     </Form>
     </div>
   )
